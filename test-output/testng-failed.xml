@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <test thread-count="5" name="Smoke Test(failed)">
+    <classes>
+      <class name="mavenTestNG.TC_001">
+        <methods>
+          <include name="verifyProduct"/>
+          <include name="openbrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- mavenTestNG.TC_001 -->
+      <class name="mavenTestNG.TC_002">
+        <methods>
+          <include name="addToCart"/>
+          <include name="openbrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- mavenTestNG.TC_002 -->
+    </classes>
+  </test> <!-- Smoke Test(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
