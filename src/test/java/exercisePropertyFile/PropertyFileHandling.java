@@ -61,7 +61,7 @@ public class PropertyFileHandling {
 		}
 
 		else {
-			System.err.println("Expected browser out of 'Chrome' , 'Firefox', 'internet explorer' is not specified");
+			System.err.println("Expected browser out of 'Chrome' , 'Firefox', 'Internet explorer' is not specified");
 		}
 
 	}
