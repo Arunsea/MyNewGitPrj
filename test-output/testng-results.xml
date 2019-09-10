@@ -1,25 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23949" started-at="2019-09-09T10:01:30Z" finished-at="2019-09-09T10:01:54Z">
+  <suite name="Suite" duration-ms="39994" started-at="2019-09-10T08:11:26Z" finished-at="2019-09-10T08:12:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23949" started-at="2019-09-09T10:01:30Z" finished-at="2019-09-09T10:01:54Z">
-      <class name="seleniumConcepts.seleniumXpath">
-        <test-method status="PASS" signature="openbrowser()[pri:0, instance:seleniumConcepts.seleniumXpath@5b275dab]" name="openbrowser" is-config="true" duration-ms="3705" started-at="2019-09-09T10:01:30Z" finished-at="2019-09-09T10:01:34Z">
+    <test name="Test" duration-ms="39994" started-at="2019-09-10T08:11:26Z" finished-at="2019-09-10T08:12:06Z">
+      <class name="testngPractice.TC_001">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:testngPractice.TC_001@68c4039c]" name="openbrowser" is-config="true" duration-ms="2464" started-at="2019-09-10T08:11:55Z" finished-at="2019-09-10T08:11:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openbrowser -->
-        <test-method status="PASS" signature="googleTitleText()[pri:0, instance:seleniumConcepts.seleniumXpath@5b275dab]" name="googleTitleText" duration-ms="19002" started-at="2019-09-09T10:01:34Z" finished-at="2019-09-09T10:01:53Z">
+        <test-method status="PASS" signature="addToCart()[pri:0, instance:testngPractice.TC_001@68c4039c]" name="addToCart" duration-ms="2" started-at="2019-09-10T08:11:58Z" finished-at="2019-09-10T08:11:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- googleTitleText -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:seleniumConcepts.seleniumXpath@5b275dab]" name="closeBrowser" is-config="true" duration-ms="1218" started-at="2019-09-09T10:01:53Z" finished-at="2019-09-09T10:01:54Z">
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="enterURL()[pri:0, instance:testngPractice.TC_001@68c4039c]" name="enterURL" duration-ms="5817" started-at="2019-09-10T08:11:58Z" finished-at="2019-09-10T08:12:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterURL -->
+        <test-method status="PASS" signature="searchProduct()[pri:0, instance:testngPractice.TC_001@68c4039c]" name="searchProduct" duration-ms="2" started-at="2019-09-10T08:12:04Z" finished-at="2019-09-10T08:12:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="verifyProduct()[pri:0, instance:testngPractice.TC_001@68c4039c]" name="verifyProduct" duration-ms="5" started-at="2019-09-10T08:12:04Z" finished-at="2019-09-10T08:12:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProduct -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testngPractice.TC_001@68c4039c]" name="closeBrowser" is-config="true" duration-ms="1191" started-at="2019-09-10T08:12:04Z" finished-at="2019-09-10T08:12:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- seleniumConcepts.seleniumXpath -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- testngPractice.TC_001 -->
+      <class name="testngPractice.TC_002">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:testngPractice.TC_002@3532ec19]" name="openbrowser" is-config="true" duration-ms="2486" started-at="2019-09-10T08:11:35Z" finished-at="2019-09-10T08:11:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="addToCart()[pri:0, instance:testngPractice.TC_002@3532ec19]" name="addToCart" duration-ms="8" started-at="2019-09-10T08:11:37Z" finished-at="2019-09-10T08:11:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="enterURL()[pri:0, instance:testngPractice.TC_002@3532ec19]" name="enterURL" duration-ms="16724" started-at="2019-09-10T08:11:37Z" finished-at="2019-09-10T08:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterURL -->
+        <test-method status="PASS" signature="searchProduct()[pri:0, instance:testngPractice.TC_002@3532ec19]" name="searchProduct" duration-ms="2" started-at="2019-09-10T08:11:54Z" finished-at="2019-09-10T08:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="verifyProduct()[pri:0, instance:testngPractice.TC_002@3532ec19]" name="verifyProduct" duration-ms="9" started-at="2019-09-10T08:11:54Z" finished-at="2019-09-10T08:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProduct -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testngPractice.TC_002@3532ec19]" name="closeBrowser" is-config="true" duration-ms="1183" started-at="2019-09-10T08:11:54Z" finished-at="2019-09-10T08:11:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testngPractice.TC_002 -->
+      <class name="testngPractice.AssertPractice">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testngPractice.AssertPractice@26653222]" name="setup" is-config="true" duration-ms="8871" started-at="2019-09-10T08:11:26Z" finished-at="2019-09-10T08:11:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="googleLogoTest()[pri:0, instance:testngPractice.AssertPractice@26653222]" name="googleLogoTest" duration-ms="120" started-at="2019-09-10T08:12:05Z" finished-at="2019-09-10T08:12:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleLogoTest -->
+        <test-method status="PASS" signature="googleTitleText()[pri:0, instance:testngPractice.AssertPractice@26653222]" name="googleTitleText" duration-ms="10" started-at="2019-09-10T08:12:05Z" finished-at="2019-09-10T08:12:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTitleText -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testngPractice.AssertPractice@26653222]" name="tearDown" is-config="true" duration-ms="1048" started-at="2019-09-10T08:12:05Z" finished-at="2019-09-10T08:12:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testngPractice.AssertPractice -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
