@@ -1,6 +1,6 @@
 package testngPractice;
 
-import org.testng.Assert;
+
 import org.testng.annotations.Test;
 
 public class TC_002 extends LaunchBrsr {
